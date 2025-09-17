@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className='navbar'>
+        <nav className='navbar' role='navigation'>
             <div className='navbar-left'>
                 <a href='/' className='logo'>
                     Vinit Rao
@@ -21,15 +21,6 @@ const Navbar = () => {
                         <a href='/Contact'>Contact</a>
                     </li>
                 </ul>
-            </div>
-            <div className='navbar-right'>
-                <a href='/cart' className='cart-icon'>
-                    <i className='fas fa-shopping-cart'></i>
-                    <span className='cart-count'>0</span>
-                </a>
-                <a href='/account' className='user-icon'>
-                    <i className='fas fa-user'></i>
-                </a>
             </div>
         </nav>
     )
